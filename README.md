@@ -1,35 +1,41 @@
 # AI Creative Portfolio
 
-AI-assisted commercial visual portfolio by **Rommy Sunarto**.
+A portfolio repository featuring AI-assisted commercial visual work built from structured creative briefs, iterative generation, selection, and visual QA.
 
-This repository documents four **spec / simulated client projects** created to demonstrate commercial art direction, prompt development, photorealistic image generation, continuity control, iterative refinement, visual QA, asset selection, and campaign thinking.
-
-> **Disclosure:** AURELIS, SOLVANE, KIVO, and VANTA are fictional brands created for portfolio demonstration. These are not commissioned or paid client campaigns, and no real-world commercial results are claimed.
+Each project is organized in its own root-level folder and documents not only the final images, but also the brief, production prompts, rejected directions, and selection rationale.
 
 ## Projects
 
-1. [AURELIS — Premium Skincare Launch Campaign](01-aurelis-luxury-skincare-campaign/)
-2. [SOLVANE — Quiet Movement](02-solvane-quiet-luxury-fashion-campaign/)
-3. [KIVO — BRIGHT HIT](03-kivo-sparkling-yuzu-campaign/)
-4. [VANTA — AFTER HOURS](04-vanta-after-hours-travel-campaign/)
+| # | Project | Category | Type | Status |
+|---:|---|---|---|---|
+| 01 | [AURELIS — Premium Skincare Launch Campaign](01-aurelis-luxury-skincare-campaign/) | Luxury beauty / product advertising | Spec / simulated client brief | Final |
+| 02 | [SOLVANE — Quiet Movement](02-solvane-quiet-luxury-fashion-campaign/) | Fashion / editorial | Spec / simulated client brief | Final |
 
-## Skills Demonstrated
+## Portfolio Principle
 
-- Photorealistic AI image generation
-- Prompt design and iterative refinement
-- Product and character continuity
-- Lighting, composition, materials, and anatomy QA
-- Reject/select rationale and asset curation
-- Campaign sequencing and visual-system thinking
-- AI-assisted workflow automation and documentation
+The goal is not to collect isolated AI-generated images. Each project is treated as a small commercial campaign with a defined visual system, distinct deliverables, consistency requirements, and explicit accept/reject decisions.
 
-## Tools
+All spec work is clearly identified as fictional or simulated rather than commissioned client work.
 
-ChatGPT Image, Gemini / Nano Banana, Kling, Runway, Canva, CapCut, DaVinci Resolve, n8n, APIs, Codex, Claude Code, Git/GitHub.
+## Repository Structure
 
-## About
+```text
+AI-Creative-Portfolio/
+├── README.md
+├── 01-aurelis-luxury-skincare-campaign/
+├── 02-solvane-quiet-luxury-fashion-campaign/
+└── ...
+```
 
-**Rommy Sunarto** — Generative AI Creative & Automation Builder based in Indonesia.
+Each project typically contains:
 
-- Denver AI: https://denverai.id/
-- LinkedIn: https://www.linkedin.com/in/rommy-jr-a12441405/
+```text
+project-folder/
+├── README.md
+├── 01-client-brief.md
+├── 02-production-prompts.md
+├── 03-process-and-selection.md
+└── assets/
+    ├── final/
+    └── alternates/
+```
